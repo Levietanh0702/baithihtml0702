@@ -6,23 +6,18 @@ body {
   color: #333;
   line-height: 1.6;
 }
-
-/* Headings */
 h1,
 h2,
 h3 {
   margin: 0;
   padding: 10px 0;
 }
-
 h1 {
   text-align: center;
   color: #2a9d8f;
   font-size: 2.5em;
   margin-top: 20px;
 }
-
-/* Horizontal Rule */
 hr {
   border: none;
   height: 2px;
@@ -31,8 +26,6 @@ hr {
   width: 90%;
   border-radius: 10px;
 }
-
-/* Navigation */
 nav {
   text-align: center;
 }
@@ -41,7 +34,6 @@ nav h2 {
   color: #e76f51;
   margin-bottom: 10px;
 }
-
 nav a {
   text-decoration: none;
   color: #264653;
@@ -49,19 +41,15 @@ nav a {
   margin: 10px;
   transition: color 0.3s ease;
 }
-
 nav a:hover {
   color: #e76f51;
 }
-
-/* Product Section */
 #products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
   padding: 20px;
 }
-
 .product {
   background-color: #ffffff;
   border: 1px solid #ccc;
@@ -71,36 +59,30 @@ nav a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .product:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
 .product img {
   width: 100%;
   height: auto;
   border-radius: 8px;
   border-bottom: 2px solid #e9ecef;
 }
-
 .product h2 {
   font-size: 1.2em;
   color: #2b2d42;
   margin: 15px 0;
 }
-
 .product h3 {
   font-size: 1em;
   color: #8d99ae;
   margin: 10px 0;
 }
-
 .product p {
   font-size: 1em;
   color: #555;
 }
-
 .product button {
   background-color: #2a9d8f;
   color: white;
@@ -111,26 +93,20 @@ nav a:hover {
   margin-top: 15px;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
-
 .product button:hover {
   background-color: #21867a;
 }
-
 .product button:active {
   transform: scale(0.95);
 }
-
 .product button a {
   text-decoration: none;
   color: white;
 }
-
-/* About and Contact Sections */
 #about,
 #contact {
   padding: 20px 40px;
 }
-
 #about h2,
 #contact h2 {
   color: #264653;
@@ -138,14 +114,11 @@ nav a:hover {
   padding-left: 10px;
   margin-bottom: 10px;
 }
-
 #about p,
 #contact p {
   margin: 10px 0;
   color: #555;
 }
-
-/* Footer */
 footer {
   text-align: center;
   background-color: #264653;
@@ -153,7 +126,6 @@ footer {
   padding: 15px 0;
   margin-top: 20px;
 }
-
 footer p {
   margin: 0;
 }
